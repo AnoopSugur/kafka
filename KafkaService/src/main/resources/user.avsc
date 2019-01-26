@@ -1,0 +1,8 @@
+{"namespace": "com.wdc.mps.ast.darwin.avro.model",
+ "type": "record",
+ "name": "User",
+ "fields": [
+     {"name": "name", "type": "string"},
+     {"name": "age", "type": ["int", "null"]}
+ ]
+}
